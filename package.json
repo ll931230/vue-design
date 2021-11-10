@@ -1,0 +1,15 @@
+{
+  "name": "vue-design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/liulei9311230/vue_design",
+  "scripts": {
+    "dev": "vuepress dev ./docs",
+    "build": "vuepress build docs",
+    "deploy": "sh build/deploy.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
