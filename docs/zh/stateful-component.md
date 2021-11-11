@@ -337,7 +337,7 @@ instance.$vnode.parentVNode === instance.$parentVNode
 
 那么 `contextVNode` 是什么呢？实际上**子组件标签描述的 `VNode.contextVNode` 是父组件的标签描述 `VNode`**，或者说**子组件实例的 `$parentVNode.contextVNode` 是父组件实例的 `$parentVNode`**，假设根组件渲染了 `Foo` 组件，而 `Foo` 组件又渲染 `Bar` 组件，此时就形成了一条父子链：**`Bar` 组件的父组件是 `Foo`**。
 
-![](@imgs/component-chain.png)
+![](/component-chain.png)
 
 为什么子组件的标签描述 `VNode` 需要引用父组件的标签描述 `VNode` 呢？这是因为一个组件的标签描述 `VNode` 中存储着该组件的实例对象，即 `VNode.children` 属性。还记得之前我们讲到过，对于组件来说，它的 `VNode.children` 属性会存储组件实例对象吗。这样通过这一层引用关系，子组件就知道它的父组件是谁，同时父组件也知道它有哪些子组件。
 
