@@ -1,7 +1,7 @@
 const { resolve } = require('path')
 
 module.exports = {
-  base: '/vue_design/',
+  base: '/vue-design/',
   locales: {
     '/': {
       lang: 'zh-CN',
