@@ -6,8 +6,8 @@
 
 那么在完成基本的业务之余，突然萌生了想探索它们的想法。
 
-在漫长的学习和整理中，记录所学到的。。。   
+在漫长的学习和整理中，记录所学到的。。。
   
 <br/>
 
-本文部分文章 借鉴于： [HcySunYang](https://github.com/HcySunYang)
+本文部分内容 借鉴于： [HcySunYang](https://github.com/HcySunYang)
